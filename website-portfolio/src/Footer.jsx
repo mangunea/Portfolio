@@ -1,12 +1,8 @@
 
 function Footer() {
-
-    return(
-        <footer>
-            <p>&copy; {new Date().getFullYear()} Alessandra Mangune</p>
-        </footer>
-    );
-
+  return (
+    <footer></footer>
+  );
 }
 
-export default Footer
+export default Footer;
