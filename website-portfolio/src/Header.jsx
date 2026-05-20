@@ -6,7 +6,7 @@ function Header() {
   <header>
     <section className="font-[Open Sans] min-h-screen flex items-center justify-center px-6">
       <div className="text-center max-w-4xl">
-        <h1 className="font-[Roboto] text-4xl md:text-7xl text-[#02011a] mb-8">
+        <h1 className="font-[Roboto] font-medium text-4xl md:text-7xl text-[#02011a] mb-8">
           Hi, I'm Alessandra</h1>
 
         <h2 className="text-2xl text-gray-600 mb-12">
