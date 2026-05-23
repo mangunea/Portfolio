@@ -1,9 +1,9 @@
 function Navbar() {
   return (
     <navbar>
-      <header className="w-full border-b border-gray-300 fixed">
+      <header className="w-full border-b border-gray-300 bg-white fixed">
 
-      <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         
          <h1 className="text-1xl font-semibold">
           Portfolio</h1>
