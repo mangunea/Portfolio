@@ -16,11 +16,11 @@ function Header() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
         <div className="flex justify-center gap-4 mb-10 flex-wrap">
-          <button className="bg-[#02011a] text-white px-4 py-1.5 rounded-md text-l shadow-md hover:opacity-70 transition">
+          <button className="bg-[#02011a] text-white px-4 py-1.5 rounded-md text-l shadow-md hover:opacity-70 hover:cursor-pointer transition">
             VIEW MY WORK
           </button>
 
-          <button className="border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-gray-100 transition">
+          <button className="border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-gray-100 hover:cursor-pointer transition">
             GET IN TOUCH
           </button>
         </div>
