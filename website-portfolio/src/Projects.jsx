@@ -1,3 +1,7 @@
+import {
+  ExternalLink,
+} from "lucide-react";
+
 function Projects() {
 
 
@@ -41,8 +45,9 @@ function Projects() {
                 ))}
               </div>
 
-                <button className="flex items-center gap-3 hover:underline hover: cursor-pointer text-1xl">
+                <button className="flex items-center gap-2 hover:underline hover: cursor-pointer text-1xl">
                     View Project
+                    <ExternalLink size={15} />
                 </button>
              
                     </div>
