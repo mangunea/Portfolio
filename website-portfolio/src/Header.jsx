@@ -1,6 +1,3 @@
-
-
-
 function Header() {
   return (
   <header>
@@ -24,7 +21,7 @@ function Header() {
             GET IN TOUCH
           </button>
         </div>
-      
+
       </div>
     </section>
   </header>

@@ -3,17 +3,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import About from "./About";
 import Projects from "./Projects";
-
-import {
-  Github,
-  Linkedin,
-  Mail,
-  Code2,
-  Database,
-  Terminal,
-  Palette,
-  ExternalLink,
-} from "lucide-react";
+import Skills from "./Skills";
 
 function App() {
 
@@ -22,6 +12,7 @@ function App() {
     <Navbar></Navbar>
     <Header></Header>
     <About></About>
+    <Skills></Skills>
     <Projects></Projects>
     <Footer></Footer>
     </>

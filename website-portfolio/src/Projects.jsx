@@ -49,11 +49,8 @@ function Projects() {
                     View Project
                     <ExternalLink size={15} />
                 </button>
-             
                     </div>
-
                     ))}
-
                 </div>
             </div>
         </section>
