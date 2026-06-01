@@ -20,7 +20,7 @@ function Projects() {
 
     return(
 
-        <section id="projects" className="px-6 py-28">
+        <section id="projects" className="px-6 py-28 bg-[#f5f5f5]">
             <div className="max-w-7xl mx-auto">
 
                 <h2 className="text-5xl font-semibold text-center mb-15">
