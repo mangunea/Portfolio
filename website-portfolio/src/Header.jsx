@@ -1,3 +1,8 @@
+import {
+Mail,
+} from "lucide-react";
+
+
 function Header() {
   return (
   <header>
@@ -21,7 +26,9 @@ function Header() {
             GET IN TOUCH
           </button>
         </div>
-
+        <div className="flex justify-center gap-8">
+          <Mail size={23}/>
+        </div>
       </div>
     </section>
   </header>
