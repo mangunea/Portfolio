@@ -2,6 +2,8 @@ import {
 Mail,
 } from "lucide-react";
 
+import githubIcon from "./assets/githubicon.png";
+import linkedinIcon from "./assets/linkedinicon.png";
 
 function Header() {
   return (
@@ -26,9 +28,15 @@ function Header() {
             GET IN TOUCH
           </button>
         </div>
-        <div className="flex justify-center gap-8">
+        <div className="flex justify-center gap-6">
+          <a href="https://github.com/mangunea" target="_blank" rel="noreferrer">
+      <img src={githubIcon} alt="Github" width="23" />
+      </a>
+      <a href="www.linkedin.com/in/alessandra-mangune-657799330" target="_blank" rel="noreferrer">
+      <img src={linkedinIcon} alt="Linkedin" width="23" />
+      </a>
           <Mail size={23}/>
-        </div>
+      </div>
       </div>
     </section>
   </header>
