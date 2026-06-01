@@ -29,7 +29,7 @@ function Projects() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                     {projects.map((projects, index) => (
 
-                    <div key={index} className="border border-gray-300 rounded-2xl p-8">
+                    <div key={index} className="border border-gray-300 rounded-2xl p-8 bg-[white] hover:border-black">
                         <h3 className="text-2xl font-semibold mb-3"
                         >{projects.title}</h3>
 
