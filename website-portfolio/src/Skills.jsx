@@ -18,14 +18,14 @@ function Skills() {
                 Skills & Technologies</h2>
 
 
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             {skillCards.map((card, index) => (
-                <div key={index}>
-                    <h3>
+                <div key={index} className="border border-gray-300 rounded-2xl p-8 bg-[#f5f5f5]">
+                    <h3 className="text-2xl font-semibold">
                     {card.title}
                     </h3>
 
-                    <ul>
+                    <ul className="space-y-1 text-gray-600 text-1xl">
                         {card.skills.map((skill, i) => (
                             <li key={i}>- {skill}  </li>
                         )
