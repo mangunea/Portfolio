@@ -20,22 +20,21 @@ function Header() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
         <div className="flex justify-center gap-4 mb-10 flex-wrap">
-          <button className="bg-[#02011a] text-white px-4 py-1.5 rounded-md text-l shadow-md hover:opacity-70 hover:cursor-pointer transition">
-            VIEW MY WORK
-          </button>
+          <a href="#projects" className="bg-[#02011a] text-white px-4 py-1.5 rounded-md text-l shadow-md hover:opacity-70 hover:cursor-pointer transition">
+           VIEW MY WORK
+         </a>
 
-          <button className="border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-gray-100 hover:cursor-pointer transition">
+          <a href="https://www.linkedin.com/in/alessandra-mangune-657799330/" target="_blank" rel="noreferrer" className="border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-gray-100 hover:cursor-pointer transition">
             GET IN TOUCH
-          </button>
+          </a>
         </div>
         <div className="flex justify-center gap-6">
           <a href="https://github.com/mangunea" target="_blank" rel="noreferrer">
       <img src={githubIcon} alt="Github" width="23" />
       </a>
-      <a href="www.linkedin.com/in/alessandra-mangune-657799330" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/alessandra-mangune-657799330/" target="_blank" rel="noreferrer">
       <img src={linkedinIcon} alt="Linkedin" width="23" />
       </a>
-          <Mail size={23}/>
       </div>
       </div>
     </section>
