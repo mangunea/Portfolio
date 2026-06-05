@@ -17,17 +17,19 @@ function Header() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/backgrounddd.mp4" type="video/mp4" />
+        <source src="/background.mp4" type="video/mp4" />
       </video>
 
+  <div class="absolute inset-0 bg-white/20 mix-blend-lighten"></div>
+
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-black text-center px-6 max-w-2xl">
-        <h1 className="font-[Roboto] font-semibold text-3xl md:text-6xl text-[black] mb-8 mt-18">
+        <h1 className="font-[Roboto] opacity-80 font-semibold text-3xl md:text-6xl text-[white] mb-6 mt-18">
           Hi, I'm Alessandra</h1>
 
-        <h2 className="text-2xl text-black-600 mb-8">
-          Cloud Computing Student & Problem Solver</h2>
+        <h3 className="text-2xl text-white mb-8">
+          Cloud Computing Student & Problem Solver</h3>
 
-        <p className="text-1xl leading-relaxed text-black mb-12">
+        <p className="text-1xl leading-relaxed text-white mb-12">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
         <div className="flex justify-center gap-4 mb-10 flex-wrap">
@@ -35,7 +37,7 @@ function Header() {
            VIEW MY WORK
          </a>
 
-          <a href="https://www.linkedin.com/in/alessandra-mangune-657799330/" target="_blank" rel="noreferrer" className="border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-gray-100 hover:cursor-pointer transition">
+          <a href="https://www.linkedin.com/in/alessandra-mangune-657799330/" target="_blank" rel="noreferrer" className="text-white border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-black hover:cursor-pointer transition">
             GET IN TOUCH
           </a>
         </div>

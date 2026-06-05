@@ -1,14 +1,14 @@
 function Navbar() {
   return (
     <navbar>
-      <header className="z-12 opacity-100 w-full border-b border-gray-300 bg-white fixed">
+      <header className="z-12 opacity-100 w-full border-b border-gray-200 bg-white fixed">
 
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         
-         <h1 className="text-1xl text-[#9197ae] font-semibold">
+         <h1 className="text-1xl text-[black] font-semibold">
           Portfolio</h1>
 
-        <nav className="md:flex gap-12 text-1xl text-[#9197ae]">
+        <nav className="md:flex gap-12 text-1xl text-[black]">
           <a href="#about" className="hover:text-gray-500 transition">
             About</a>
             <a href="#skills" className="hover:text-gray-500 transition">
