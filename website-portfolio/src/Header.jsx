@@ -8,7 +8,7 @@ import linkedinIcon from "./assets/linkedinicon.png";
 function Header() {
   return (
   <header>
-    <section className="font-[Open Sans] min-h-screen flex items-center justify-center px-6">
+    <section className="relative min-h-screen font-[Open Sans]">
       
         <video
         autoPlay
@@ -20,16 +20,35 @@ function Header() {
         <source src="/background.mp4" type="video/mp4" />
       </video>
 
-  <div class="absolute inset-0 bg-white/20 mix-blend-lighten"></div>
+  <div className="absolute inset-0 bg-white/20 mix-blend-lighten"></div>
+  
+    <nav className="relative z-10 w-full px-8 py-6">
+      <div className="max-w-6xl mx-auto flex items-center justify-between">
 
-      <div className="relative z-10 h-full flex flex-col items-center justify-center text-black text-center px-6 max-w-2xl">
-        <h1 className="font-[Roboto] opacity-80 font-semibold text-3xl md:text-6xl text-[white] mb-6 mt-18">
+         <h1 className="text-1xl text-[black] font-semibold">
+          Portfolio</h1>
+
+        <nav className="md:flex gap-12 text-1xl text-[black]">
+          <a href="#about" className="hover:text-black-500 transition">
+            About</a>
+            <a href="#skills" className="hover:text-black-500 transition">
+            Skills</a>
+          <a href="#projects" className="hover:text-black-500 transition">
+            Projects</a>
+
+        </nav>
+      </div>
+      </nav>
+
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center px-6 max-w-2xl mx-auto">
+    
+        <h1 className="font-[Roboto] opacity-90 font-semibold text-5xl md:text-6xl text-[#2c3d55] mb-4">
           Hi, I'm Alessandra</h1>
 
-        <h3 className="text-2xl text-white mb-8">
+        <h3 className="text-2xl text-[#2c3d55] mb-4">
           Cloud Computing Student & Problem Solver</h3>
 
-        <p className="text-1xl leading-relaxed text-white mb-12">
+        <p className="text-1xl leading-relaxed text-[#2c3d55] mb-13">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
         <div className="flex justify-center gap-4 mb-10 flex-wrap">
@@ -37,7 +56,7 @@ function Header() {
            VIEW MY WORK
          </a>
 
-          <a href="https://www.linkedin.com/in/alessandra-mangune-657799330/" target="_blank" rel="noreferrer" className="text-white border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-black hover:cursor-pointer transition">
+          <a href="https://www.linkedin.com/in/alessandra-mangune-657799330/" target="_blank" rel="noreferrer" className="text-white border border-gray-300 px-4 py-1.5 rounded-md text-l hover:bg-[#2c3d55] hover:cursor-pointer transition">
             GET IN TOUCH
           </a>
         </div>
@@ -50,6 +69,7 @@ function Header() {
       </a>
       </div>
       </div>
+      
     </section>
   </header>
   );
